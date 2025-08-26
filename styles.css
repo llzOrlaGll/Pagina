@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+    font-family: "DM Serif Display", serif;
+}
+header{
+    width: 100%;
+}
+.contenedor{
+    display: inline-block;
+}
+#navegador{
+    padding-left: 68%;
+}
+#logo {
+    width: 30px;
+}
+h1{
+    font-size: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+#persona{
+    width: 500px;
+}
+main{
+    display: inline-block;
+    vertical-align: middle;
+}
