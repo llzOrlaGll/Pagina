@@ -2,9 +2,11 @@
 
 *{
     font-family: "DM Serif Display", serif;
+    text-transform: capitalize;
 }
 body{
     justify-items: center;
+    background-color: rgb(228, 241, 252);
 }
 .contenedor{
     width: 1000px;
@@ -25,7 +27,7 @@ h1{
 #navegador{
     position: absolute;
     top: 0;
-    left: 60%;
+    left: 50%;
 }
 nav ul {
     list-style-type: none;
@@ -33,7 +35,7 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 40px;
 }
 nav a{
     text-decoration: none;
@@ -69,9 +71,10 @@ p{
     width: 40px;
 }
 button{
-    background-color: rgb(18, 198, 234);
+    background-color: rgb(63, 190, 249);
     border-radius: 10px;
     border: 0;
     padding: 10px;
     color: white;
+    cursor: pointer;
 }
