@@ -3,39 +3,75 @@
 *{
     font-family: "DM Serif Display", serif;
 }
-header{
-    width: 100%;
+body{
+    justify-items: center;
 }
 .contenedor{
+    width: 1000px;
+    height: auto;
+    position: relative;
+    margin-bottom: 200px;
+    display: block;
+}
+.contenido{
     display: inline-block;
-}
-#navegador{
-    padding-left: 68%;
-}
-#logo {
-    width: 30px;
 }
 h1{
     font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 42px;
+}
+#navegador{
+    position: absolute;
+    top: 0;
+    left: 60%;
 }
 nav ul {
     list-style-type: none;
     padding: 0;
 }
-
 nav li {
     display: inline-block;
     margin-right: 15px;
 }
-
-nav li:last-child {
-    margin-right: 0;
+nav a{
+    text-decoration: none;
+    color: gray;
 }
-
 #persona{
-    width: 500px;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: -50px;
+    left: 600px;
 }
-main{
-    display: inline-block;
-    vertical-align: middle;
+main + .contenido{
+    margin-top: 200px;
+}
+h2{
+    font-size: 40px;
+    width: 400px;
+    margin: 0%;
+}
+p{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.contenido > p{
+    font-size: 16px;
+    color: gray;
+    width: 500px;
+    margin: 0px;
+    padding-top: 0;
+}
+#logo{
+    width: 40px;
+}
+button{
+    background-color: rgb(18, 198, 234);
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    color: white;
 }
